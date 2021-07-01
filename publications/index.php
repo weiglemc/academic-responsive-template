@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>[ Zeinalipour | All Publications ]</title>
+<title>Weigle | All Publications</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Font Awesome Icons -->
@@ -34,32 +34,6 @@
 <script type="text/javascript" src="js/arrow78.js"></script><html>
 
 
-<!-- Google Site Search | Search box-->
-<script>
-<!--
-  (function() {
-    var cx = '012777421281883581498:r3xp4rmwevw';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
--->
-</script>
-<!-- Google Analytics -->
-<script>
-<!--
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-70658068-1', 'auto');
-  ga('send', 'pageview');
--->
-</script>
 <script language="JavaScript">
 <!--
     function spiderjam(mym, myd){
@@ -89,79 +63,55 @@
             <span><a href="../index.html"><img border="0" width="170" src="images/csucy.png"/></a></span>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Home<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                    <li><a href="../index.html#intro">Introduction</a></li>
-                        <li><a href="../bio.html">Biography</a></li>
-                        <li><a href="../cv.html">CV (Web)</a></li>
-                        <li><a target="_blank" href="../zeinalipour.pdf">CV (PDF)</a></li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                         <!--   <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-top-content').show();" href="#page-top">Top</a>
+                            </li>
+                        -->
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications/">All</a></li>
+                            </ul>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="talks/">Talks</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                        </li>  
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#bio">Bio</a>
+                        </li>                     
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
                     </ul>
-                </li>
-                <li class="page-scroll">
-                <a href="../index.html#news">News</a>
-                </li>
-                <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Publications<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                    <li><a href="../index.html#publications">Selected</a></li>
-                        <li><a href="index.php">All</a></li>
-                    </ul>
-                </li>
-                <li class="page-scroll">
-                    <a href="../index.html#awards">Awards</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="../talks/">Talks</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="../index.html#courses">Courses</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="../index.html#systems">Systems</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="../index.html#service">Service</a>
-                </li>
-                <li class="page-scroll">
-                <a href="../index.html#advising">Advising</a>
-                </li>
-                <li class="page-scroll">
-                    <a target="_blank" href="http://dmsl.cs.ucy.ac.cy/projects.php">Grants</a>
-                </li>
-
-                <li class="page-scroll">
-                    <a href="../index.html#contact">Contact</a>
-                </li>
-                <li class="page-scroll">
-                    <a onclick="$('#bs-example-navbar-collapse-2').toggle();">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </a>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-
-        <!-- search box submenu -->
-        <div class="collapse" id="bs-example-navbar-collapse-2">
-            <gcse:search></gcse:search>
-        </div>
+                </div><!-- /.navbar-collapse -->
 
     </div><!-- /.container-fluid -->
 </nav>
 
-<section>
-    <!-- Place this tag where you want the search results to render -->
-    <gcse:searchresults-only></gcse:searchresults-only>
-</section>
-
 <section id="tree" style="margin-top:50px">
     <div class="container">
-        <a href="../index.html">Zeinalipour</a> > All Publications
+        <a href="../index.html">Weigle</a> > All Publications
     </div>
 </section>
 
@@ -169,7 +119,7 @@
 <section id="home">
     <div class="container" id="publications">
     <br>
-    <h1 align="CENTER">All Publications of Demetris Zeinalipour</h1>
+    <h1 align="CENTER">All Publications of Michele C. Weigle</h1>
     <br>
 <?php
     error_reporting(E_ALL);
@@ -264,7 +214,7 @@
    /* 
      Enter the location of your BibTex file
     */
-    $bibTexFile = 'demo.bib';
+    $bibTexFile = 'mweigle.bib';
     
     $bibTex = new BibTeX_Parser();
     $bibTex->parser($file = $bibTexFile); 

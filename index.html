@@ -27,7 +27,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/menucollapse.js"></script>
-   <!--     <script type="text/javascript" src="js/arrow78.js"></script> -->
+        <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
     </head>
     
@@ -49,16 +49,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="10" height="50" src="images/odu-sig-noidea-fullcolor.png"/></a></span>
+                    <span><a href="#"><img border="0" padding="10" height="50" src="images/odu-sig-noidea-fullcolor.png"/></a></span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <li class="page-scroll">
+                         <!--   <li class="page-scroll">
                                 <a onclick="javascript:reset_menus();$('#tab-top-content').show();" href="#page-top">Top</a>
                             </li>
+                        -->
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
                         </li>
@@ -102,11 +103,11 @@
         <!-- Home Section -->
         <section  name="home" id="home" style="margin-top:40px">
             <div class="container">
-                <div align="left" class="col-md-3">
+                <div style="text-align: left" class="col-md-3">
                     <a target="_blank" href="images/mweigle-ODU.jpg">
-                        <img id="mobile-img" src="images/mweigle-ODU.jpg" border="0" height="200" alt="picture of Dr. Weigle"></a>
+                        <img id="mobile-img" src="images/mweigle-ODU.jpg" padding="10" height="200" alt="picture of Dr. Weigle"></a>
                 </div>
-                <div align="left" class="col-md-4">
+                <div style="text-align: left" class="col-md-5">
                     <h2>Michele C. Weigle
                      <h5><i>PhD, UNC-Chapel Hill, 2003</i></h5>
                     </h2>
@@ -127,14 +128,11 @@
                     <h4><i>Expertise: web archiving, web science, social media, information visualization</i></h4>
                     
                 </div>
-                
-                <i class="twittertop" style="display:none;" id="t1">
-                    <div id="news" style="text-align: left"  class="col-md-5">&nbsp;
-<p>Testing -- put buttons for twitter, Google Scholar, etc. here</p>
-<p><a href="mweigle-CV.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
-<a href="bio.html" class="btn-sm btn-primary">Bio&raquo;</a></p>
-                    </div>
-                </i>
+                <div style="text-align: left" class="col-md-3">
+<p>Testing -- put buttons for Twitter, Google Scholar, etc. here</p>
+<p><a href="mweigle-CV.pdf" class="btn-lg btn-primary">CV (PDF)&raquo;</a>
+<a href="bio.html" class="btn-lg btn-primary">Bio&raquo;</a></p>
+                </div>
                 
                 <b class="expandshow" style="display:none;" id="tab-1">
                     <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
