@@ -9,7 +9,7 @@
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -19,19 +19,19 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="js/jquery.tipsy.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<link rel="stylesheet" type="text/css" href="css/custom.css"/>
-<link rel="stylesheet" type="text/css" href="css/tipsy.css"/>
-<link rel="stylesheet" type="text/css" href="css/fancybox.css"/>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="../js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/custom.css"/>
+<link rel="stylesheet" type="text/css" href="../css/tipsy.css"/>
+<link rel="stylesheet" type="text/css" href="../css/fancybox.css"/>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/menucollapse.js"></script>
-<script type="text/javascript" src="js/arrow78.js"></script><html>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/menucollapse.js"></script>
+<script type="text/javascript" src="../js/arrow78.js"></script><html>
 
 
 <script language="JavaScript">
@@ -60,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span><a href="../index.html"><img border="0" width="170" src="../images/odu-sig-noidea-fullcolor.png"/></a></span>
+            <span><a href="../index.html"><img height="50" src="../images/odu-sig-noidea-fullcolor.png"/></a></span>
         </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
