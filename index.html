@@ -49,7 +49,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="0" height="50" src="images/odu-color.png"/></a></span>
+                    <span><a href="#"><img border="0" height="50" src="images/odu-sig-noidea-fullcolor.png"/></a></span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,7 +59,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Home<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#page-top">Top</a></li>
                                 <li><a href="bio.html">Biography</a></li>
                                 <li><a href="cv.html">CV (Web)</a></li>
                                 <li><a target="_blank" href="mweigle-CV.pdf">CV (PDF)</a></li>
@@ -86,15 +86,14 @@
                             <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
-                        </li>
-                        <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
-                        </li>
-                        
+                        </li>  
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#bio">Bio</a>
+                        </li>                     
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
                         </li>
@@ -124,11 +123,11 @@
             <div class="container">
                 <div align="left" class="col-md-3">
                     <a target="_blank" href="images/mweigle-ODU.jpg">
-                        <img id="mobile-img" src="images/mweigle-ODU.jpg" border="0" height="175" alt=""></a>
+                        <img id="mobile-img" src="images/mweigle-ODU.jpg" border="0" height="200" alt="picture of Dr. Weigle"></a>
                 </div>
                 <div align="left" class="col-md-4">
                     <h2>Michele C. Weigle
-                     <!--  <h5><i>PhD, U. of California - Riverside, USA, 2005</i></h5>-->
+                     <h5><i>PhD, UNC-Chapel Hill, 2003 2005</i></h5>
                     </h2>
                     
                     <h4>Professor<br>
@@ -147,7 +146,7 @@
                             </script><br/>
                         Lab: <a target="_blank" href="https://oduwsdl.github.io/">Web Science and Digital Libraries (WS-DL)</a><br>
                     </h4>
-                    <h4><i>Expertise: web science, digital preservation, social media, information visualization</i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
+                    <h4><i>Expertise: web archiving, web science, social media, information visualization</i></h4>
                     
                 </div>
                 
@@ -156,22 +155,9 @@
 <p>Testing -- put buttons for twitter, Google Scholar, etc. here</p>
 <p><a href="mweigle-CV.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
 <a href="bio.html" class="btn-sm btn-primary">Bio&raquo;</a></p>
-                        <!--<center><a class="twitter-timeline" href="https://twitter.com/weiglemc" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
-                            data-height="300">Tweets
-                            by @dmslucy</a>
-                        <script>!function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");</script></center>-->
                     </div>
                 </i>
                 
-                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
                 <b class="expandshow" style="display:none;" id="tab-1">
                     <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
                 </b>
@@ -181,40 +167,7 @@
                 
             </div>
         </section>
-        
-        <!-- Home Section -->
-        <section name="intro" id="intro">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <!--<h2>Welcome!</h2>-->
-                    
-                    <b class="noshow" style="display:none;" id="tab-1">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-intro-content">
-                        <hr class="star-primary">
-                        
-                        <p class="lead">
-                        Dr. Michele C. Weigle is a Professor of Computer Science at Old Dominion University. Her research interests include web science, 
-                        digital preservation, and information visualization. Her research in web archiving includes developing tools 
-                        for personal web archiving, improving access to web archives for general users and researchers, and applying information 
-                        visualization to web archives. She has published over 100 articles in peer-reviewed conferences and journals and has served as 
-                        PI or Co-PI on external research grants totaling over $3.3M from the National Science Foundation, the National Endowment for the 
-                        Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She is currently serving on the 
-                        editorial boards of the Journal of the Association for Information Science and Technology (JASIST) and the International Journal on 
-                        Digital Libraries (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003. From 2004-2006, 
-                        she was an Assistant Professor in the Department of Computer Science at Clemson University. She joined ODU in 2006.
-                        </p>
-                                               
-                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
-                        <a href="mweigle-CV.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        
+              
             <!-- News Section -->
             <section  name="news"  id="news">
                 <div class="container lead">
@@ -223,16 +176,16 @@
                         <b class="noshow" style="display:none;"  id="tab-2">
                             <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
                         </b>
-                        <b class="allshow" style="display:none;"  id="tab-news-content">                        
+                        <div class="allshow" style="display:none;"  id="tab-news-content">                        
                             <hr class="star-primary">
                             
                             <h2>News</h2>
                                 <h4>Fall 2021 Teaching</h4>
                                 <ul>
-                                    <li><span class="label label-success">CS 432</span>, <span class="label label-success">CS 532</span> Web Science, asynchronous online</li>
+                                    <li><span class="label label-success">CS 432</span> <span class="label label-success">CS 532</span> Web Science, asynchronous online</li>
                                     <li><span class="label label-default">CS 625</span> Data Visualization, TR 9:30-10:45am, ECSB 2120 and online via Zoom</li>
                                 </ul>
-                        </b>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -393,42 +346,6 @@
                             <li><span class="label label-default">EPL032</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl032">Introduction to Programming and Problem Solving</a></li>
                             <li><span class="label label-default">EPL003</span> Computer Science and Information Systems</li>
                             <li><span class="label label-default">EPL001</span> Introduction to Computer Science</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Courses Section -->
-        <section name="systems" id="systems">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-4">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-systems-content').toggle();">Systems  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-systems-content">
-                        <hr class="star-primary">
-                        <h2>Systems <a href="https://dmsl.cs.ucy.ac.cy/projects.php   " class="btn btn-primary">More &raquo;</a></h2>
-                        <ul>
-                            
-                            
-                            <p>
-                            Our group enjoys transforming basic research results into systems and services:
-                            </p>
-                            
-                            <li><span class="label label-success">TBD</span> <a target="_blank" href="https://tbd.cs.ucy.ac.cy" target="_blank">Telco Big Data Awareness</a> (Spatial, Big Data, Decaying)</li>
-                            <li><span class="label label-success">Anyplace</span> <a target="_blank" href="https://anyplace.cs.ucy.ac.cy" target="_blank">Indoor Information Service</a> (Indoor, Big Data, Privacy, Prefetching)</li>
-                            <li><span class="label label-default">Rayzit</span> <a target="_blank" href="https://rayzit.cs.ucy.ac.cy" target="_blank">Crowd Messaging Architecture</a> (Privacy, Crowdsourcing, Mobile, Microblogging)</li>
-                            <li><span class="label label-default">SmartLab</span> <a target="_blank" href="https://smartlab.cs.ucy.ac.cy" target="_blank">Smartphone Cloud Computer</a> (Mobile, Cloud, Programming)</li>
-                            <li><span class="label label-default">Airplace</span> <a target="_blank" href="http://www2.ucy.ac.cy/~laoudias/pages/platform.html" target="_blank">Indoor Localization</a> (Indoor, Wi-Fi, Localization, Mobile)</li>
-                            <li><span class="label label-default">Smarttrace</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Trajectory Search Retrieval</a> (Trajectories, Similarity, Mobile)</li>
-                            <li><span class="label label-default">TVM</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Temporal Vector Map</a> (Indoor, Privacy, Localization)</li>
-                            <li><span class="label label-default">KSpot+</span> <a target="_blank" href="https://kspot.cs.ucy.ac.cy" target="_blank">Wireless Sensor Networks</a> (WSN, Data Management, Search, Retrieval)</li>
-                            
-                            <br><a target="_blank" href="https://dmsl.cs.ucy.ac.cy/"><img border="0" width="150" src="https://dmsl.cs.ucy.ac.cy/images/logo.png"/></a>
-                            <a target="_blank" href="https://github.com/dmsl/"><img border="0" width="250" src="images/github-logo.png"/></a>
                         </ul>
                     </div>
                 </div>
@@ -707,7 +624,7 @@
             </div>
         </section>
         
-        <!-- Courses Section -->
+        <!-- Advising Section -->
         <section name="advising" id="advising">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -735,43 +652,45 @@
                             <li>
                                 <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="https://www.cs.ucy.ac.cy/~cs07cc6/">Constantinos Costa</a>, Instructor/Researcher, University of Cyprus, Cyprus.
                             </li>
-                           <!-- <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="https://www.cs.ucy.ac.cy/~glarko01/">Georgios Larkou</a>, University of Cyprus, Cyprus.
-                            </li>-->
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!-- Home Section -->
-        <section name="links" id="links">
+               
+        <!-- Bio Section -->
+        <section name="bio" id="bio">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                     
-                    <b class="noshow" style="display:none;" id="tab-9">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-bio-content').toggle();">Bio <span class="glyphicon glyphicon-chevron-down"></span></button>
                     </b>
                     
-                    <div class="allshow" style="display:none;" id="tab-links-content">
-                        
+                    <div class="allshow" style="display:none;" id="tab-bio-content">
                         <hr class="star-primary">
-                        <h2>Random Links</h2>
-                        <ul>
-                            <li><span class="label label-success"><a target="_blank" href="https://www.cs.ucy.ac.cy/colloquium/"><font color="white">Colloquium</font></a></span> I am the Computer Science Colloquium Coordinator.</li>
-                            <li><span class="label label-default"><a target="_blank" href="http://www.homepages.ucl.ac.uk/~uccazei/"><font color="white">Brother</font></a></span> My brother's website at UCL, UK.</li>
-                            <li><span class="label label-info"><a target="_blank" href="https://smartlib.cs.ucy.ac.cy/scripts/exportBooks.php?mykey=0a05bb77edad7395da818f361f8115a2"><font color="white">Books</font></a></span> My book collection constructed using our <a target="_blank" href="https://smartlib.cs.ucy.ac.cy/">SmartLib project.</a></li>
-                            <li><span class="label label-danger"><a target="_blank" href="https://code.org/learn"><font color="white">Hour-of-Code</font></a></span> I support the hour of code iniative as a volunteer instructor.</a></li>
-                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/dmsl"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
-                            <li><span class="label label-warning"><a target="_blank" href="http://www.kyreniaship.org/"><font color="white">Kyrenia-Chrysocava</font></a></span> A project aimed to preserve the cultural heritage of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kyrenia_ship">Kyrenia ship</a>.</li>
-                            <li><span class="label label-success"><font color="white">Cycling</font></span> My favorite hobby besides programming :-)</a></li>
-                        </ul>
+                        <h2>Biography</h2>
+                        <p class="lead">
+                        Dr. Michele C. Weigle is a Professor of Computer Science at Old Dominion University. Her research interests include web science, 
+                        digital preservation, and information visualization. Her research in web archiving includes developing tools 
+                        for personal web archiving, improving access to web archives for general users and researchers, and applying information 
+                        visualization to web archives. She has published over 100 articles in peer-reviewed conferences and journals and has served as 
+                        PI or Co-PI on external research grants totaling over $3.3M from the National Science Foundation, the National Endowment for the 
+                        Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She is currently serving on the 
+                        editorial boards of the Journal of the Association for Information Science and Technology (JASIST) and the International Journal on 
+                        Digital Libraries (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003. From 2004-2006, 
+                        she was an Assistant Professor in the Department of Computer Science at Clemson University. She joined ODU in 2006.
+                        </p>
+                                               
+                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+                        <a href="mweigle-CV.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
                     </div>
+                    
                 </div>
             </div>
         </section>
-        
-        <!-- Home Section -->
+
+        <!-- Contact Section -->
         <section  name="contact" id="contact">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -785,85 +704,45 @@
                         <h2>Contact</h2>
                         <div class="container lead">
                             <div align="left" class="col-md-3">
-                                <h4 class="myEN">
-                                    POSTAL ADDRESS (EN | <a target="_blank" onclick="javascript:$('.myEN').hide();$('.myEL').show();">EL</a>)
-                                </h4>
-                                
-                                <h4 class="myEL" style="display:none">
-                                    ΤΑΧΥΔΡΟΜ. ΔΙΕΥΘ. (<a target="_blank" onclick="javascript:$('.myEN').show();$('.myEL').hide();">EN</a> | EL)
-                                </h4>
-                                
-                                <p class="myEL" style="display:none">
-                                Δημήτρης Ζεϊναλιπούρ<br>
-                                Τμήμα Πληροφορικής<br>
-                                Πανεπιστήμιο Κύπρου<br>
-                                Τ.Θ. 20537<br>
-                                1678 Λευκωσία, ΚΥΠΡΟΣ<br>
-                                </p>
-                                
-                                <p class="myEN">
-                                Demetris Zeinalipour<br>
-                                Dept. of Computer Science<br>
-                                University of Cyprus<br>
-                                P.O. Box 20537<br>
-                                1678 Nicosia, CYPRUS<br>
-                                </p>
-                                Email:
-                                <script language="JavaScript">
-                                    <!--
-                                    document.write("&nbsp;");
-                                    spiderjam('dzeina','cs.ucy.ac.cy');
-                                    -->
-                                    </script><br>
-                            </div>
-                            
-                            <div align="left" class="col-md-3">
-                                <h4>CONTACT VCARD</h4>
+                                <h4>POSTAL ADDRESS</h4>
+                                                                                            
                                 <p>
-                                <a href="zeinalipour.vcf"><img src="images/zeinalipour-qr.gif" border="0" width="150"><br>
-                                    https://goo.gl/ndCbTg</a>
-                                
-                                <!--   <a href="zeinalipour.vcf" class="btn btn-primary">Get VCF Card &raquo;</a>-->
+                                Dr. Michele C. Weigle<br/>
+                                4700 Elkhorn Ave, Suite 3300</br>
+                                Dept. of Computer Science<br/>
+                                Old Dominion University<br/>
+                                Norfolk, VA 23529-0162<br/>
                                 </p>
                             </div>
-                            
+                                                     
                             <div align="left" class="col-md-3">
                                 <h4>OFFICE ADDRESS</h4>
-                                <p>B106, Computer Science,<br/>
-                                Building FST-01,<br/>
-                                1 University Avenue,<br/>
-                                2109 Aglantzia, CYPRUS<br/>
-                                Tel: <a href="tel:0035722892755">+357-22892755</a><br/>
-                                Fax: <a href="tel:0035722892701">+357-22892701</a><br/>
+                                <br/>3327 E&amp;CS Buiding
+                                <br/>4700 Elkhorn Ave 
+                                <br/>Old Dominion University 
                                 <br/>
                                 </p>
                             </div>
                             
-                            <div align="left" class="col-md-3">
-                                <h4>OFFICE DIRECTIONS</h4>
-                                <p><a href="https://goo.gl/RLbcXM" target="_blank"><img src="images/anyplace-directions.jpg" border="0"
-                                    width="150"> <br>https://goo.gl/RLbcXM</a>
-                                </p>
-                            </div>
                         </div>
                         <hr class="star-primary">
                     </div>
                     
                     </section>
-        
+                           
         <hr class="star-primary">
         <footer>
             <small>
                 <center>
-                    © 2015 | D. Zeinalipour. Credits: AR template
-                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
-                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
-                            https://github.com/dmsl/academic-responsive-template
-                        </a> ]
-                    </div>
+                    © 2021 | M. WEIGLE. Credits: AR template
+                <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+                <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                    https://github.com/dmsl/academic-responsive-template 
+                </a> ]
+                </div>
                 </center>
-            </small>
+                </small>
         </footer>
         
     </body>
