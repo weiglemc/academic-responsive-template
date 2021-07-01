@@ -60,7 +60,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span><a href="../index.html"><img border="0" width="170" src="images/csucy.png"/></a></span>
+            <span><a href="../index.html"><img border="0" width="170" src="../images/odu-sig-noidea-fullcolor.png"/></a></span>
         </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,36 +72,36 @@
                             </li>
                         -->
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="../index.html#news">News</a>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 Publications<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
-                                <li><a href="publications/">All</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="../index.html#publications">Selected</a></li>
+                                <li><a href="#">All</a></li>
                             </ul>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="../index.html#awards">Awards</a>
                         </li>
                         <li class="page-scroll">
                             <a href="talks/">Talks</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="../index.html#courses">Courses</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="../index.html#service">Service</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="../index.html#advising">Advising</a>
                         </li>  
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#bio">Bio</a>
+                            <a onclick="javascript:reset_menus();$('#tab-bio-content').show();" href="../index.html#bio">Bio</a>
                         </li>                     
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="../index.html#contact">Contact</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -214,7 +214,7 @@
    /* 
      Enter the location of your BibTex file
     */
-    $bibTexFile = 'mweigle.bib';
+    $bibTexFile = 'demo.bib';
     
     $bibTex = new BibTeX_Parser();
     $bibTex->parser($file = $bibTexFile); 
