@@ -27,7 +27,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
+   <!--     <script type="text/javascript" src="js/arrow78.js"></script> -->
         <script type="text/javascript" src="js/custom.js"></script>
     </head>
     
@@ -49,22 +49,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="0" height="50" src="images/odu-sig-noidea-fullcolor.png"/></a></span>
+                    <span><a href="#"><img border="10" height="50" src="images/odu-sig-noidea-fullcolor.png"/></a></span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Home<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#page-top">Top</a></li>
-                                <li><a href="bio.html">Biography</a></li>
-                                <li><a href="cv.html">CV (Web)</a></li>
-                                <li><a target="_blank" href="mweigle-CV.pdf">CV (PDF)</a></li>
-                            </ul>
-                        </li>
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-top-content').show();" href="#page-top">Top</a>
+                            </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
                         </li>
@@ -97,26 +91,13 @@
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
                         </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
                 
-                <!-- search box submenu -->
-                <div class="collapse" id="bs-example-navbar-collapse-2">
-                    <gcse:search></gcse:search>
-                        </div>
                 
             </div><!-- /.container-fluid -->
         </nav>
         
-        <section>
-            <!-- Place this tag where you want the search results to render -->
-            <gcse:searchresults-only></gcse:searchresults-only>
-                </section>
         
         <!-- Home Section -->
         <section  name="home" id="home" style="margin-top:40px">
@@ -127,15 +108,12 @@
                 </div>
                 <div align="left" class="col-md-4">
                     <h2>Michele C. Weigle
-                     <h5><i>PhD, UNC-Chapel Hill, 2003 2005</i></h5>
+                     <h5><i>PhD, UNC-Chapel Hill, 2003</i></h5>
                     </h2>
                     
                     <h4>Professor<br>
                         <a href="https://www.cs.odu.edu/" target="_blank">Dept. of Computer Science</a><br>
                         <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a><br>
-                        4700 Elkhorn Ave., Suite 3300<br>
-                        Norfolk, VA 23529-0162<br/>
-                        Tel: (757) 683-7729</a><br/>
                         </h4>
                         <h4>Email:
                         <script language="JavaScript">
@@ -704,11 +682,10 @@
                         <h2>Contact</h2>
                         <div class="container lead">
                             <div align="left" class="col-md-6">
-                                <h4>POSTAL ADDRESS</h4>
-                                                                                            
+                                <h4>POSTAL ADDRESS</h4>                                                                                           
                                 <p>
                                 Dr. Michele C. Weigle<br/>
-                                4700 Elkhorn Ave., Suite 3300</br>
+                                4700 Elkhorn Ave., Suite 3300<br/>
                                 Dept. of Computer Science<br/>
                                 Old Dominion University<br/>
                                 Norfolk, VA 23529-0162<br/>
@@ -717,11 +694,11 @@
                                                      
                             <div align="left" class="col-md-3">
                                 <h4>OFFICE ADDRESS</h4>
-                                <br/>E&amp;CS Building Rm. 3327
-                                <br/>4700 Elkhorn Ave.
-                                <br/>Old Dominion University 
-                                <br/>Norfolk, VA
-                                <br/>
+                                <p>E&amp;CS Building Rm. 3327
+                                4700 Elkhorn Ave.<br/>
+                                Old Dominion University<br/>
+                                Norfolk, VA<br/>
+                                (757) 683-7729<br/>
                                 </p>
                             </div>
                             
